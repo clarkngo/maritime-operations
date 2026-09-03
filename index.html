@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maritime Operations | Puget Sound Process, Authority &amp; Careers</title>
+<meta name="description" content="How a vessel actually moves through Washington State / Puget Sound maritime operations — process flow, the regulatory and commercial authorities involved, and where careers sit in the system.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a class="header-brand" href="index.html">
+      <div class="brand-icon">MO</div>
+      <div class="brand-text">
+        <h1>Maritime Operations</h1>
+        <p>Puget Sound process &amp; authority reference</p>
+      </div>
+    </a>
+    <div class="header-links">
+      <a class="header-link" href="https://clarkngo.github.io/maritime-fundamentals/">MOF-101</a>
+      <a class="header-link" href="https://clarkngo.github.io/maritime-ot/">MOT-101</a>
+      <a class="header-link" href="https://clarkngo.github.io/maritime-atlas/">Maritime Atlas</a>
+    </div>
+  </div>
+  <nav class="subnav">
+    <div class="subnav-inner">
+      <a href="#process">Process Flow</a>
+      <a href="#structure">Authority Structure</a>
+      <a href="#careers">Career Map</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>How a vessel moves through <span class="accent-word">Puget Sound</span></h2>
+  <p class="lead">A working reference to Washington State maritime operations: the real sequence a vessel and its cargo follow from arrival to departure, the regulatory and commercial authorities that govern that sequence, and the career paths built around each stage.</p>
+  <div class="hero-pills">
+    <span class="hero-pill">Puget Sound Pilots</span>
+    <span class="hero-pill">Port of Seattle &amp; Port of Tacoma</span>
+    <span class="hero-pill">NWSA</span>
+    <span class="hero-pill">Washington State Ferries</span>
+    <span class="hero-pill">USCG Sector Puget Sound</span>
+  </div>
+</div>
+
+<main>
+
+  <!-- ============ SECTION 1: PROCESS FLOW ============ -->
+  <section class="block" id="process">
+    <p class="section-eyebrow">01 &middot; Process</p>
+    <h2 class="section-title">Vessel &amp; Cargo Process Flow</h2>
+    <p class="section-intro">A commercial vessel calling on Puget Sound follows a fixed sequence of regulatory checkpoints and handoffs. Alongside it runs a parallel technology flow — the bridge, engine, and terminal systems that make each stage possible, and the surface where operational technology (OT) security matters most.</p>
+
+    <div class="content-card">
+      <div class="flow-track-label"><span class="dot"></span>Commercial &amp; Regulatory Flow</div>
+      <div class="flow-row">
+        <div class="flow-step">
+          <div class="num">1</div>
+          <h4>Arrival</h4>
+          <p>Vessel submits a Notice of Arrival to USCG/CBP up to 96 hours out. Vessel Traffic Service (VTS) Puget Sound tracks the ship inbound through the Strait of Juan de Fuca.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num">2</div>
+          <h4>Pilotage</h4>
+          <p>A state-commissioned Puget Sound Pilot boards near Port Angeles and conns the vessel through restricted, high-traffic waters — compulsory for most foreign and non-enrolled vessels.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num">3</div>
+          <h4>Berth / Terminal Assignment</h4>
+          <p>The receiving terminal (Port of Seattle or an NWSA-managed Tacoma terminal) confirms a berth window and lines up tugs, linehandlers, and crane scheduling.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num">4</div>
+          <h4>Customs &amp; Border Protection</h4>
+          <p>CBP conducts arrival inspection and manifest/crew review; USCG Sector Puget Sound verifies MTSA/ISPS security compliance for the vessel and facility.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num">5</div>
+          <h4>Cargo &amp; Logistics Handling</h4>
+          <p>ILWU longshore labor and terminal crews work the vessel under the terminal operating system; customs brokers clear cargo, and rail (BNSF/UP) or drayage trucking moves it inland.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num">6</div>
+          <h4>Departure</h4>
+          <p>The pilot re-boards for outbound transit, VTS sequences the vessel into open traffic, and USCG monitors until it clears the pilotage grounds.</p>
+        </div>
+      </div>
+
+      <hr class="flow-divider">
+
+      <div class="flow-track-label"><span class="dot" style="background:#7c3aed"></span>Parallel OT / ICS Flow</div>
+      <div class="flow-row">
+        <div class="flow-step">
+          <div class="num" style="background:#7c3aed">A</div>
+          <h4>Bridge &amp; ECDIS</h4>
+          <p>ECDIS, radar/ARPA, AIS, and GNSS positioning — the navigation OT layer the pilot and deck officers work through during pilotage and transit.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num" style="background:#7c3aed">B</div>
+          <h4>Engine Control Systems</h4>
+          <p>Propulsion control, ballast management, and alarm-monitoring systems in the engine room — the vessel's core industrial control surface.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="num" style="background:#7c3aed">C</div>
+          <h4>Port Terminal OT</h4>
+          <p>Terminal operating system, ship-to-shore crane controls, and gate/OCR systems — where the vessel's IT/OT boundary extends onto shore infrastructure.</p>
+        </div>
+      </div>
+      <div class="flow-note">This OT layer runs underneath every stage on the left — it's the operational technology surface covered in depth on the companion <a href="https://clarkngo.github.io/maritime-ot/">Maritime OT (MOT-101)</a> site.</div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 2: AUTHORITY STRUCTURE ============ -->
+  <section class="block" id="structure">
+    <p class="section-eyebrow">02 &middot; Structure</p>
+    <h2 class="section-title">Authority Structure</h2>
+    <p class="section-intro">No single body runs Puget Sound. Federal and state regulators set the rules, a private pilot association bridges regulation and vessel operations, and a mix of municipal, joint, and state bodies actually run the ports and ferries — each with a different mandate.</p>
+
+    <div class="content-card">
+      <p class="org-tier-label">Federal &amp; State Regulatory Authority</p>
+      <div class="org-tier regulatory">
+        <div class="org-card regulatory">
+          <span class="kind">Federal</span>
+          <h4>USCG Sector Puget Sound</h4>
+          <p>Safety, security, and environmental-response authority for all Puget Sound waterways. Runs VTS Puget Sound and enforces MTSA/ISPS compliance across ports, vessels, and pilots alike.</p>
+        </div>
+        <div class="org-card regulatory">
+          <span class="kind">State</span>
+          <h4>WA Board of Pilotage Commissioners</h4>
+          <p>State body that licenses, rate-sets, and disciplines Puget Sound Pilots. Regulatory authority over the pilotage profession specifically, not over ports or terminals.</p>
+        </div>
+      </div>
+
+      <div class="org-connector">&#124;</div>
+
+      <p class="org-tier-label">Operational Bridge</p>
+      <div class="org-tier bridge">
+        <div class="org-card bridge">
+          <span class="kind">Operational</span>
+          <h4>Puget Sound Pilots</h4>
+          <p>Private association of state-commissioned pilots. Licensed and disciplined by the state, but embedded in vessel operations — the working bridge between regulation and the ship itself.</p>
+        </div>
+      </div>
+
+      <div class="org-connector">&#124;</div>
+
+      <p class="org-tier-label">Commercial &amp; Public Operating Authorities</p>
+      <div class="org-tier operational">
+        <div class="org-card operational">
+          <span class="kind">Municipal</span>
+          <h4>Port of Seattle</h4>
+          <p>Municipal port district. Retains cruise, general cargo, real estate, and Sea-Tac Airport operations directly; contributes container terminals to NWSA.</p>
+        </div>
+        <div class="org-card operational">
+          <span class="kind">Municipal</span>
+          <h4>Port of Tacoma</h4>
+          <p>Municipal port district. Retains bulk, breakbulk, and log terminals directly; contributes container terminals to NWSA.</p>
+        </div>
+        <div class="org-card operational">
+          <span class="kind">Joint venture</span>
+          <h4>Northwest Seaport Alliance (NWSA)</h4>
+          <p>Marine cargo operating partnership formed in 2015, jointly governed by the Seattle and Tacoma port commissions. Manages container terminal operations for both ports as one gateway.</p>
+        </div>
+        <div class="org-card operational">
+          <span class="kind">State agency</span>
+          <h4>Washington State Ferries (WSF)</h4>
+          <p>A WSDOT division, not a port authority. Operates the largest ferry system in the U.S. by ridership, sharing the same waterways and VTS but running outside the deep-sea cargo and pilotage system.</p>
+        </div>
+      </div>
+
+      <div class="org-legend">
+        <span><span class="swatch" style="background:#64748b"></span>Regulatory (sets/enforces rules)</span>
+        <span><span class="swatch" style="background:#22d3ee"></span>Operational bridge (licensed, but hands-on)</span>
+        <span><span class="swatch" style="background:#0891b2"></span>Commercial / public operator (runs the infrastructure)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 3: CAREER MAP ============ -->
+  <section class="block" id="careers">
+    <p class="section-eyebrow">03 &middot; Careers</p>
+    <h2 class="section-title">Career Map</h2>
+    <p class="section-intro">Each role below sits at a specific point in the process flow from Section 01. Tags show which stage(s) — commercial or OT — the role actually touches day to day.</p>
+
+    <div class="content-card">
+      <div class="career-grid">
+        <div class="career-card">
+          <div class="role-icon">&#9875;</div>
+          <h4>Deck Officers (Master &amp; Mates)</h4>
+          <p>Command and navigate the vessel, work directly with the boarding pilot, and hold ultimate responsibility for the ship through arrival, pilotage, and departure.</p>
+          <div class="stage-tags"><span class="stage-tag">Arrival</span><span class="stage-tag">Pilotage</span><span class="stage-tag">Departure</span><span class="stage-tag ot">Bridge/ECDIS</span></div>
+        </div>
+        <div class="career-card">
+          <div class="role-icon">&#9881;&#65039;</div>
+          <h4>Engine Officers (Chief Engineer &amp; Engineers)</h4>
+          <p>Operate and maintain propulsion, power generation, and ballast systems — the engine room side of the vessel that keeps it maneuverable through every stage.</p>
+          <div class="stage-tags"><span class="stage-tag ot">Engine Control Systems</span></div>
+        </div>
+        <div class="career-card">
+          <div class="role-icon">&#128274;</div>
+          <h4>Marine Pilots</h4>
+          <p>State-commissioned specialists in local waters who board inbound and outbound vessels to conn them through Puget Sound's restricted channels — a career built entirely around one process stage.</p>
+          <div class="stage-tags"><span class="stage-tag">Pilotage</span></div>
+        </div>
+        <div class="career-card">
+          <div class="role-icon">&#127974;</div>
+          <h4>Port Operations</h4>
+          <p>Terminal superintendents, marine operations staff, and harbor masters at Port of Seattle, Port of Tacoma, and NWSA who assign berths, schedule cranes, and coordinate tugs and linehandling.</p>
+          <div class="stage-tags"><span class="stage-tag">Berth Assignment</span><span class="stage-tag">Cargo Handling</span></div>
+        </div>
+        <div class="career-card">
+          <div class="role-icon">&#128272;</div>
+          <h4>OT / ICS Security Engineers</h4>
+          <p>Secure the industrial control systems underneath bridge, engine, and terminal operations — a cross-cutting role that spans the entire OT flow rather than one stage. Covered in depth on Maritime OT.</p>
+          <div class="stage-tags"><span class="stage-tag ot">Bridge/ECDIS</span><span class="stage-tag ot">Engine Control Systems</span><span class="stage-tag ot">Port Terminal OT</span></div>
+        </div>
+        <div class="career-card">
+          <div class="role-icon">&#128203;</div>
+          <h4>Logistics &amp; Customs Brokers</h4>
+          <p>Clear cargo through CBP, manage manifests and duties, and coordinate the intermodal handoff to rail and drayage trucking once containers leave the terminal.</p>
+          <div class="stage-tags"><span class="stage-tag">Customs &amp; CBP</span><span class="stage-tag">Cargo Handling</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://clarkngo.github.io/maritime-fundamentals/">Maritime Fundamentals</a>
+      <a href="https://clarkngo.github.io/maritime-ot/">Maritime OT</a>
+      <a href="https://clarkngo.github.io/maritime-atlas/">Maritime Atlas</a>
+    </div>
+    <p>Maritime Operations &middot; Washington State / Puget Sound reference &middot; Clark Ngo</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
